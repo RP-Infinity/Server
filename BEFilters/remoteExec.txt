@@ -1,2 +1,0 @@
-//new
-7 "" !="removeBackpack this; removeAllWeapons this;" !"^["true", ""] [[\d:-]+ group, \d+]$"
