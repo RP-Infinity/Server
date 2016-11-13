@@ -18,6 +18,9 @@ class CarShops {
             { "B_Quadbike_01_F", { "", "", -1 } },
             { "C_Hatchback_01_F", { "", "", -1 } },
             { "C_Offroad_01_F", { "", "", -1 } },
+			{ "C_Offroad_02_unarmed_F", { "", "", -1 } },
+			{ "B_T_LSV_01_unarmed_F", { "", "", -1 } },
+			{ "O_T_LSV_02_unarmed_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
             { "C_Van_01_transport_F", { "", "", -1 } }
@@ -56,7 +59,10 @@ class CarShops {
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+			{ "C_Plane_Civil_01_F", { "", "", -1 } },
+			{ "B_Heli_Transport_01_F", { "", "", -1 } },
+			{ "B_Heli_Transport_03_F", { "", "", -1 } }
         };
     };
 
@@ -163,6 +169,41 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
+	class C_Offroad_02_unarmed_F {
+        vItemSpace = 200;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 45000;
+        textures[] = {};
+    };
+	
+	class B_T_LSV_01_unarmed_F {
+        vItemSpace = 150;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 55000;
+        textures[] = {};
+    };
+	
+	class O_T_LSV_02_unarmed_F {
+        vItemSpace = 120;
+        licenses[] = { {"driver"}, {""}, {""}, {""} };
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class C_Plane_Civil_01_F {
+        vItemSpace = 100;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 75000;
+        textures[] = {};
+    };
+	
+	class B_Heli_Transport_03_F {
+        vItemSpace = 700;
+        licenses[] = { {"pilot"}, {""}, {""}, {""} };
+        price = 1680000;
+        textures[] = {};
+    };
+	
     class I_Truck_02_medical_F {
         vItemSpace = 150;
         licenses[] = { {""}, {""}, {""}, {""} };
@@ -248,7 +289,7 @@ class LifeCfgVehicles {
 
     class Box_IND_Grenades_F {
         vItemSpace = 350;
-        licenses[] = { {""}, {""}, {""}, {""} };
+        licenses[] = { {"rebel"}, {""}, {""}, {""} };
         price = -1;
         textures[] = {};
     };

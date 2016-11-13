@@ -107,7 +107,11 @@ class Clothing {
             { "B_Carryall_mcamo", "", 7500, { "", "", -1 } },
             { "B_Carryall_oli", "", 7500, { "", "", -1 } },
             { "B_Carryall_khk", "", 7500, { "", "", -1 } },
-            { "B_Carryall_cbr", "", 7500, { "", "", -1 } }
+            { "B_Carryall_cbr", "", 7500, { "", "", -1 } },
+			{ "B_Bergen_dgtl_F", "", 15000, { "", "", -1 } },
+			{ "B_Bergen_hex_F", "", 15000, { "", "", -1 } },
+			{ "B_Bergen_mcamo_F", "", 15000, { "", "", -1 } },
+			{ "B_Bergen_tna_F", "", 15000, { "", "", -1 } }
         };
     };
 
